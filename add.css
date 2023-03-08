@@ -1,0 +1,45 @@
+
+ul.a li{
+list-style-type: circle;
+font-size: 50px ;
+text-align: center;
+}
+li:first-child::first-letter{
+    color: orange;
+    font-size: 20px;
+}
+li:nth-child(4)::first-letter{
+    color: blue;
+    font-size: 20px;
+}
+.giua{
+    text-align: center;
+}
+.phai{
+    text-align: right;
+}
+header {
+    background-color: pink;
+    padding: 30px; 
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+table,th,td {
+    table-layout: auto;
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+a:link {
+    color: red;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    color: #FF00FF;
+}
+a:active {
+    color: teal;
+}

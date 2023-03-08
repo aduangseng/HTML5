@@ -1,39 +1,19 @@
 <!DOCTYPE html>
 <html>
     <title>About me</title>
-    <style>
-        header {
-  background-color: white;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: black;
-}
-table,th,td {
-    table-layout: auto;
-  border:1px solid black;
-  border-collapse: collapse;
-}
-th, td {
-text-align: center;
-padding-top: 10px;
-padding-bottom: 20px;
-padding-left: 30px;
-padding-right: 40px;
-}
-    </style>
-<body>
+    <link rel="stylesheet" href="add.css">
+<body style="background-color: pink">
     <header>
         <h2>Giới thiệu</h2>
     </header>
-    <table style="width:100%">
+    <table class="giua" style="width:100%">
         <tr>
-            <th style="width: 20%;">Họ và tên</th>
+            <th>Họ và tên</th>
             <td>Nguyễn Nam Cường</td>
         </tr>
         <tr>
             <th rowspan="1">Ảnh đại diện</th>
-            <td><img src="IMG_20221008_074928.jpg" alt="Cuongnopro" height="400px"></td>
+            <td><img src="IMG_20221008_074928.jpg" alt="Cuongnopro" height="300" width="300" title="avatar"></td>
         </tr>
         <tr>
             <th>Mã sinh viên</th>
@@ -41,25 +21,27 @@ padding-right: 40px;
         </tr>
         <tr>
             <th>Sở thích</th>
-            <th>
-                <p>Xem anime</p>
-                <p>Gacha game</p>
-                <p>Tiết kiệm</p>
+            <th class="a">
+                <li>Sở thích 1</li>
+                <li>Sở thích 2</li>
+                <li>Sở thích 3</li>
+                <li>Sở thích 4</li>
             </th>
         </tr>
         <tr>
             <th>5 người bạn thân nhất</th>
             <th>
-                <p>Tuyến</p>
-                <p>Hương</p>
-                <P>H.Anh</P>
-                <p>T.Hải</p>
-                <p>Trang</p>
+                <p><a href="">Người bạn 1</a></p>
+                <p><a href="">Người bạn 2</a></p>
+                <p><a href="">Người bạn 3</a></p>
+                <p><a href="">Người bạn 4</a></p>
+                <p><a href="">Người bạn 5</a></p>
             </th>
         </tr>
-    <table>
+    </table>
+    <table style="width: 100%;">
         <h3>TKB hoc ky II</h3>
-        <tr>
+        <tr class="giua">
                 <th>Thu 2</th>
                 <th>Thu 3</th>
                 <th>Thu 4</th>
@@ -68,7 +50,7 @@ padding-right: 40px;
                 <th>Thu 7</th>
                 <th>Chu nhat</th>
         </tr>
-        <tr>
+        <tr class="phai">
                 <th>Cau truc du lieu va giai thuat</th>
                 <th>Toan</th>
                 <th>Xac suat thong ke</th>
@@ -77,7 +59,7 @@ padding-right: 40px;
                 <th>Hoc Web</th>
                 <th></th>
         </tr>
-        <tr>
+        <tr class="phai">
                 <th></th>
                 <th>Tieng Nhat</th>
                 <th></th>

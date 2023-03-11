@@ -1,45 +1,44 @@
 
 ul.a li{
-list-style-type: circle;
-font-size: 50px ;
-text-align: center;
-}
+    list-style-type: circle;
+    text-align: center;
+    }
 li:first-child::first-letter{
-    color: orange;
-    font-size: 20px;
-}
+        color: orange;
+        font-size: 40px;
+    }
 li:nth-child(4)::first-letter{
-    color: blue;
-    font-size: 20px;
-}
+        color: blue;
+        font-size: 40px;
+    }
 .giua{
-    text-align: center;
-}
+        text-align: center;
+    }
 .phai{
-    text-align: right;
-}
+        text-align: right;
+    }
 header {
-    background-color: pink;
-    padding: 30px; 
-    text-align: center;
-    font-size: 35px;
-    color: black;
-}
+        background-color: pink;
+        padding: 30px; 
+        text-align: center;
+        font-size: 35px;
+        color: black;
+    }
 table,th,td {
-    table-layout: auto;
-    border:1px solid black;
-    border-collapse: collapse;
-}
-
+        table-layout: auto;
+        border:1px solid black;
+        border-collapse: collapse;
+    }
+    
 a:link {
-    color: red;
-}
+        color: red;
+    }
 a:visited {
-    color: blue;
-}
+        color: blue;
+    }
 a:hover {
-    color: #FF00FF;
-}
+        color: #FF00FF;
+    }
 a:active {
-    color: teal;
-}
+        color: teal;
+    }

@@ -1,0 +1,155 @@
+#div1{
+    border: 1px;
+    background-color: bisque;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+}
+#div1 ul{
+    list-style :none;
+}
+#div1 ul li{
+    position: relative;
+    float: right;
+    padding-right: 10px;
+}
+#div1 li a{
+    text-decoration: none;
+    color:salmon;
+    /* padding: 3cm 6px; */
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    border: 1px solid blue;
+    margin-right: 50px;
+}
+#div1 li ul{
+    position: absolute;
+    display: none;
+}
+#div1 li:hover ul{
+    display: block;
+    padding-top: 10px;
+}
+#div1 ul li a:hover{
+    color : blueviolet;
+
+}
+#div1 ul li a:active{
+    font-weight: bold;
+}
+.a1 a:link{
+    border: 1px solid blue;
+    width: 150px;
+
+}
+.a1 a:hover{
+    color: black;
+    background-color: red;
+}
+.a1 li{
+    font-family: 'Times New Roman', Times, serif;
+}
+/* #main-nav{
+    background-color: aqua;
+    height: 50px;
+    
+}
+#header{
+    background-color: orange;
+    height: 150px
+}
+#slidebar-a{
+    background-color: blue;
+    float: left;
+    width: 500px;
+}
+#content{
+    background-color: violet;
+    float: right;
+}
+#footer{
+    background-color: orange;
+    height: 60px;
+} */
+
+*{
+    box-sizing: border-box;
+}
+#wrapper{
+    max-width:1600px ;
+    margin: 0px auto;
+}
+#header{
+    background: rgb(187, 195, 201);
+    color:aliceblue;
+    padding: 20px;
+}
+#header ul{
+    list-style: none;
+}
+#header ul li{
+    position: relative;
+    float: right;
+    bottom: 20px;
+    padding-right: 20px;
+    border: 1px solid cyan;
+    color: black;
+}
+#header li a{
+    text-decoration: none;
+    display: block;
+    padding-right: 40px;
+}
+#header li ul{
+    position: absolute;
+    display: none;
+    top: 40px;;
+}
+#header li:hover ul{
+    display:block;
+    padding-right: 10px;
+}
+#header ul li a:hover{
+    background-color:pink;
+}
+#header ul li a:active{
+    font-weight: bold;
+    color: chartreuse;
+}
+.a1 a:link{
+    border: 1px solid blue;
+    width: 2cm;
+
+}
+.a1 a:hover{
+    color: black;
+    background-color: red;
+}
+.a1 li{
+    font-family: 'Times New Roman', Times, serif;
+}
+#main-content{
+    display: flex;
+    min-height: 500px;
+}
+#slidebar{
+    flex-basis:20% ;
+    background: aqua;
+}
+#slidebar h3{
+    font-size: larger;
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: blue;
+}
+#content{
+    flex-basis: 80%;
+    background: lightgreen;
+}
+#footer{
+    background-color: pink;
+    padding: 15px;
+    text-align: center;
+}
